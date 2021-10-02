@@ -11,6 +11,8 @@ const format = (date, delim = '-') => {
     }).join(delim)
 }
 
+console.log(format(new Date()));
+
 console.log(format(new Date(), '/'))
 
 console.log(format(new Date(), '-'));
